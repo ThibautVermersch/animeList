@@ -1,10 +1,12 @@
 body{
     margin : 0;
     padding: 0;
+    background-color: #0a131f;
 }
 
 header{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     max-height: 70px;
     background-color: #0c2444;
@@ -15,9 +17,62 @@ header{
 }
 
 header>img{
-    max-height: auto;
-    max-width: auto;
-    aspect-ratio: 1/1;
+    max-height: 70px;
 }
 
+.search-bar{
+    margin-inline: auto;
+}
 
+.logo{
+    padding-left: 2%;
+}
+
+.profile{
+    padding-right: 2%;
+}
+
+.site-name{
+    color: #faf3e7;
+}
+
+.anime-card-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin: 40px auto;
+    max-width: 1500px;
+    padding: 20px;
+}
+
+.anime-card{
+    border-radius: 51px;
+    background-color: #1b3654;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-height: 400px;
+    max-width: 255px;
+    transition: max-height 1s ease;
+}
+
+.anime-card-img{
+    height: 296px;
+    width: 100%;
+    border-radius:51px 51px 0 0;
+    justify-self: center;
+    flex-shrink: 0;
+}
+
+.anime-card>h3{
+    color: #faf3e7;
+    font-size: 30px;
+}
+
+.anime-card:hover{
+    max-height: 800px;
+    transition: max-height 1.7s ease;
+    
+}
