@@ -15,7 +15,7 @@ header>div>img{
 
 header {
     position: fixed;
-    top: 5px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -48,7 +48,53 @@ header {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    color: #faf3e7;
 }
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#bar {
+    background-color: #faf3e7;
+    border: none;
+    border-radius: 16px;
+    padding: 8px 14px;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.button-search {
+    appearance: button;
+    background-color: #faf3e7;
+    border: none;
+    border-radius: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 8px 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.button-search:after {
+  background-color: #faf3e7;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
 
 .profile {
     display: flex;
@@ -78,6 +124,7 @@ header {
     max-width: 255px;
     width: 100%;
     transition: max-height 1s ease;
+    user-select: none;
 }
 
 .anime-card-img{
@@ -88,11 +135,19 @@ header {
     flex-shrink: 0;
     object-fit: cover;
     object-position: center;
+    user-select: none;
+    pointer-events: none;
 }
 
 .anime-card>h3{
     color: #faf3e7;
     font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .anime-card:hover {
@@ -139,7 +194,6 @@ header {
     top: 24px;
     left: -5px;
 }
-
 
 
 
