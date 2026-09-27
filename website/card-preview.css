@@ -1,8 +1,20 @@
+@font-face {
+  font-family: 'Lora';
+  src: url('/Font/Lora/Lora-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Lora', sans-serif;
+}
+
+
 
 body {
     background-color: #0A131F;
     color: #faf3e7;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +81,7 @@ body {
 }
 
 .read-more {
-    color: #7289da;
+    color: #a298fe;
     font-size: 0.8rem;
     text-decoration: none;
     display: grid;
@@ -90,9 +102,10 @@ body {
     color: #faf3e7;
     padding: 8px 12px;
     border-radius: 20px;
-    font-size: 0.85rem;
+    font-size: 1rem;
     text-align: center;
-    font-weight: 500;
+    font-weight: bold;
+    box-shadow: 0 4px 6px #6c5ce77b;
 }
 
 
@@ -123,7 +136,7 @@ body {
 .rating-badge {
     background-color: #A298FE;
     color: #0A131F;
-    padding: 6px 20px;
+    padding: 8px 12px;
     border-radius: 20px;
     font-size: 1.1rem;
     display: flex;
