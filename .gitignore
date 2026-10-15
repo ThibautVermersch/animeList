@@ -1,0 +1,37 @@
+# Dépendances & Builds
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/vendor
+
+# Fichiers d'environnement & secrets
+.env
+.env.backup
+.env.production
+
+# Stockage dynamique Laravel (on ignore le contenu, pas l'arborescence)
+/storage/*.key
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+
+# Éditeurs & IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.vsix
+
+.idea/
+*.iws
+out/
+
+# Système
+.DS_Store
+Thumbs.db
