@@ -1,4 +1,4 @@
-Anime;Genre;Studio d'animation;Nombre de saisons;Date de sortie;Statut
+Anime;Genre;Studio;NB_Saisons;Sortie;Statut
 365 Days To The Wedding;Romance, Slice of Life, Mariage, Travail;Ashi Productions;1;2024-10-03;
 5cm Per Second;Drame, Romance, Slice of Life;CoMix Wave Films;;2007-03-03;
 A Couple Of Cuckoos;Shonen, Comedie, Slice of Life, School life;Okuruto Noboru;2;2022-05-24;
@@ -22,7 +22,7 @@ Cyberpunk: Edgerunners;Action, Drame, Science fiction;;1;2022-09-13;Fini
 Dandadan;Action, Comedie, Horreur, Myst�re, Romance;;2;2024-10-04;
 Darling In The Franxx;Action, Drame, Psychologie, Romance, Mecha;;1;2018-01-13;Fini
 Death Note;Drame, Fantastique, Myst�re, Psychologie, Surnaturel;;1, ;2006-10-04;
-Demon Slayer: Kimetsu no Yaiba;Action, Aventure, Drame, Fantastique, Historique, Surnaturel;;4, ;2019-04-06;en cour
+Demon Slayer: Kimetsu no Yaiba;Action, Aventure, Drame, Fantastique, Historique, Surnaturel;;4, ;2019-04-06;en cours
 Domestic Girlfriend;Drame, Romance, School life, Slice of Life;;1;2019-01-12;
 Erased;Myst�re, Psychologie, Surnaturel, Seinen;;1;2016-01-08;Fini
 Failure Skill 'Nut Master';Aventure, Comedie, Fantasy, Romance, Harem;;1;2025-01-01;
@@ -42,8 +42,8 @@ I Made Friends With The Second Prettiest Girl In My Class;Comedie, Romance, Scho
 I Want To Eat Your Pancreas;Drame, Romance, Seinen;;;2018-09-01;Fini
 Insomniacs After School;Comedie, School life, Slice of Life, Ecole, Quotidien;;1;2023-04-11;Fini
 JUJUTSU KAISEN;Action, Aventure, School life, Yokai, Surnaturel, Magie, Myst�re, Shonen;;3, ;2020-10-03;
-Kaiju No. 8;Action, Comedie, Horreur, Science fiction;;2;2024-04-13;en cour
-Kaoru Hana Wa Rin To Saku;Shonen, Romance, School life, Amour, Ecole, Gastronomie;;1;2025-01-01;en cour
+Kaiju No. 8;Action, Comedie, Horreur, Science fiction;;2;2024-04-13;en cours
+Kaoru Hana Wa Rin To Saku;Shonen, Romance, School life, Amour, Ecole, Gastronomie;;1;2025-01-01;en cours
 Kawaii Dake Janai Shikimori-San;Comedie, Romance, School life, Shonen, Slice of Life, Adolescence, Amour, Ecole, Quotidien;;1;2022-04-10;
 Lord Of Mysteries;Action, Seinen, Aventure, Drame, Fantasy, Horreur, Myst�re, Surnaturel, Thriller;;1;2025-01-01;
 Love And Lies;Comedie, Drame, Romance, School life, Slice of Life;;1;2017-07-04;
