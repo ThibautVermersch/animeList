@@ -4,6 +4,7 @@
     @include('partials.head')
 </head>
 <body>
+<div id="top"></div>
 @include('partials.header')
 
 <main>
